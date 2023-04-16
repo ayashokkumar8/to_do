@@ -1,0 +1,94 @@
+$numbers: 0, 1, 2, 3, 4, 5, 6;
+
+@function numberToPx($number) {
+  @return #{$number * 10}px;
+}
+
+@each $number in $numbers {
+  // margins
+  .mt-#{$number} {
+    margin-top: numberToPx($number);
+  }
+  .mr-#{$number} {
+    margin-right: numberToPx($number);
+  }
+  .mb-#{$number} {
+    margin-bottom: numberToPx($number);
+  }
+  .ml-#{$number} {
+    margin-left: numberToPx($number);
+  }
+  .mx-#{$number} {
+    margin-right: numberToPx($number);
+    margin-left: numberToPx($number);
+  }
+  .my-#{$number} {
+    margin-top: numberToPx($number);
+    margin-bottom: numberToPx($number);
+  }
+  // paddings
+  .pt-#{$number} {
+    padding-top: numberToPx($number);
+  }
+  .pr-#{$number} {
+    padding-right: numberToPx($number);
+  }
+  .pb-#{$number} {
+    padding-bottom: numberToPx($number);
+  }
+  .pl-#{$number} {
+    padding-left: numberToPx($number);
+  }
+  .px-#{$number} {
+    padding-right: numberToPx($number);
+    padding-left: numberToPx($number);
+  }
+  .py-#{$number} {
+    padding-top: numberToPx($number);
+    padding-bottom: numberToPx($number);
+  }
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.d-inline {
+  display: inline;
+}
+.d-flex {
+    display: flex;
+  }
+.flex-direction-column {
+  flex-direction: column;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-end {
+  justify-content: end;
+}
+.justify-content-between {
+  justify-content: space-between;;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.align-items-center {
+  align-items: center;
+}
+

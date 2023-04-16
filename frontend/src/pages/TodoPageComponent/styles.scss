@@ -1,0 +1,33 @@
+@import '~assets/scss/variables';
+
+.task-container {
+    padding: 20px;
+    margin-top: 20px;
+
+    .task-text {
+        font-size: 18px;
+        color: $dark-blue-grey;
+    }
+
+    .task-image {
+        text-align: right;
+    }
+}
+
+.option-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(31, 42, 75, 0.59);
+}
+
+.show-option {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: $blue;
+    margin: 2px 10px;
+}
+.show-option-active {
+    text-decoration: none;
+    color: $dark-blue-grey;
+}

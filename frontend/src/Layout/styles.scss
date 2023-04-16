@@ -1,0 +1,10 @@
+@import '~assets/scss/variables';
+.layout-header {
+    background-color: $pale-grey;
+    .header-container {
+        text-align: right;
+        .logout-button {
+            width: 100px !important;
+        }
+    }
+}

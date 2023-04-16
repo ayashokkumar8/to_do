@@ -1,0 +1,28 @@
+@import '~assets/scss/variables';
+
+.card-container {
+    margin-top: 60px;
+
+    .card {
+        background-color: $white;
+        width: 600px;
+        margin: auto;
+        border-radius: 10px;
+        top: 50px;
+        padding: 30px;
+
+        .card-img {
+            margin-bottom: 10px;
+        }
+
+        .header {
+            font-weight: bold;
+            font-size: 22px;
+            color: $dark-blue-grey;
+        }
+
+        .subheader {
+            color: $cool-grey-Two;
+        }
+    }
+}

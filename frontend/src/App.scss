@@ -1,0 +1,23 @@
+@import '~assets/scss/main.scss';
+
+* {
+  font-family: $mark-pro;
+  color: $black;
+}
+
+body {
+  margin: 0;
+  background-color: $pale-grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: $mark-pro;
+  color: $black;
+  letter-spacing: 1px;
+}

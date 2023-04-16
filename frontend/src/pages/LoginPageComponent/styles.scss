@@ -1,0 +1,13 @@
+@import '~assets/scss/variables';
+.button-container {
+    text-align: center;
+    .error {
+        color: #F44336;
+    }
+}
+
+.menulink {
+    font-weight: 400;
+    text-decoration: underline !important;
+    color: $dark-blue-grey !important;
+}
